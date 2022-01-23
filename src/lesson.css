@@ -1,0 +1,86 @@
+@font-face {
+  font-family: "OpenSans";
+  src: url(/Fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+body,
+h2,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.header nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.header nav  a {
+  text-decoration: none;
+  margin-left: 70px;
+  color: #131313;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: "OpenSans";
+}
+
+.header nav  a:hover {
+  color: #2785f7;
+}
+
+/* Section */
+
+.section_table {
+  margin: 0 auto;
+  width: 1400px;
+  height: 730px;
+  background-color: #eaebed;
+  margin-top: 30px;
+  border-radius: 30px;
+}
+
+/* Таблица */
+
+.section_table_block{
+  width: 1404px;
+  height: 726px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  color: #323232;
+  font-family: 'OpenSans';
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.table_block {
+  width: 1000px;
+  height: 500px;
+  border-collapse: collapse;
+}
+
+.checkbox_onclic{
+  width: 50px;
+  height: 25px;
+  cursor: pointer;
+}
+.checbox-haver-animation:hover {
+  background-color: #F8F8FF;
+}
+.checkbox_border_first {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.checkbox_border_second {
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+.imgdownlod_pointer{
+  cursor: pointer;
+}
